@@ -1,0 +1,57 @@
+		html {
+		    height: 100%;
+		}
+		
+		body {
+		    min-height: 100%;
+		    height: auto !important;
+		    margin: 0px;
+		}
+		
+		.banner {
+		    background-color: black;
+		}
+		
+		#parallxWrapper {
+		    margin: auto;
+		    height: 540px;
+		    width: 1000px;
+		}
+		
+		.parallxBackground {
+		    height: 100%;
+		    background-image: black;
+		    border-radius: 10px;
+		    padding: 10px;
+		    -webkit-transform-style: preserve-3d;
+		    transform-style: preserve-3d;
+		}
+		
+		.parallxLayer:hover {
+		    -webkit-transform: scale(1.05);
+		    -webkit-transform: translateZ(30px);
+		    transform: scale(1.05);
+		    transform: translateZ(30px);
+		    cursor: pointer;
+		}
+		
+		.parallxLayerShooter {
+		    width: 1000px;
+		    height: 694px;
+		    float: right;
+		    background-image: url("HitsFromTheBongbg2.png");
+		    position: absolute;
+		    -webkit-transform: translateZ(50px);
+		    transform: translateZ(50px);
+		}
+		body {
+		    color: #333333;
+		    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            background-color: black;
+		}
+		
+		.col-md-8 {
+		    min-height: 1px;
+		    padding-left: 15px;
+		    padding-right: 15px;
+		}
